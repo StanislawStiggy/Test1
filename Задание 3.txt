@@ -1,0 +1,10 @@
+fun main() {
+    var list = mutableListOf<Int>()
+    cycle(list)
+}
+fun cycle (arr: MutableList<Int>) {
+    for (i in 0..9) {
+        arr.add(i + 1)
+    }
+    println(arr)
+}
